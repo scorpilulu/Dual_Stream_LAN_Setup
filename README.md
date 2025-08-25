@@ -68,20 +68,32 @@
 
 ## 📖 Detailed Usage
 
-### 🖥️ To Share Your Screen (Sender Mode)
+### 🖥️ To Share Your Screen (Sender PC)
 1. Run `LAN_Streamer_1.0.bat`
 2. Press **1** for Sender mode
-3. The app will show your IP address - share this with the receiver
-4. Your screen is now being streamed!
-5. Press **Q** to stop streaming
+3. Enter the Receiver PC's IP (shown on the Receiver screen)
+4. Choose resolution and quality when prompted
+5. Your screen is now being streamed
+6. Press **Q** to stop streaming
 
-### 📱 To Watch Someone's Screen (Receiver Mode)
+### 🖥️ To Receive a Stream (Receiver PC)
 1. Run `LAN_Streamer_1.0.bat`
 2. Press **2** for Receiver mode
-3. Enter the sender's IP address (or press Enter to use saved)
-4. Choose audio output device (optional)
-5. Enjoy the stream!
-6. Press **Q** to stop watching
+3. Choose an audio output device (or press Enter for default)
+4. You'll see a waiting screen with this PC's IP — give this IP to the Sender
+5. Enjoy the stream (press **F** for fullscreen)
+6. Press **Q** or **ESC** to stop watching
+
+### 🎥 Dual-PC streaming with OBS (PC-to-PC -> OBS -> online)
+On the streaming PC (Receiver) where OBS is installed:
+1. Start Receiver (option 2) and ensure the "LAN Stream HD" window is visible.
+2. In OBS, add a source:
+   - Window Capture: select the "LAN Stream HD" window; or
+   - Display Capture: capture the monitor showing the receiver window.
+3. Ensure audio is captured in OBS:
+   - Use Desktop Audio; or
+   - Add a WASAPI capture of your chosen output device.
+4. Go Live in OBS to stream to your platform.
 
 ## 🎯 Pro Tips
 
