@@ -13,8 +13,9 @@
 
 ## 🌟 What is LAN Screen Streamer?
 
-**LAN Screen Streamer** is a simple yet powerful tool that lets you share your screen with any device on your local network - no internet required! Perfect for:
+**LAN Screen Streamer** is a simple yet powerful tool designed primarily for PC-to-PC dual streaming on your local network - no internet required. Perfect for:
 
+- 🖥️🖥️ Dual-PC streaming: send your desktop to a second PC running OBS, which streams online
 - 📺 Stream your PC to your TV
 - 🎮 Share gameplay with friends in the same room
 - 📊 Present wirelessly in meetings
@@ -27,7 +28,7 @@
 - 🔊 **Audio Support** - Stream both video AND sound
 - 💾 **Auto-Save Settings** - Remembers your preferences
 - 🎯 **Smart Connection** - Automatically finds devices
-- 📱 **Cross-Device** - Works with phones, tablets, TVs, and computers
+- 🖥️🖥️ **PC-to-PC (Dual Streaming)** - Built for dual-PC workflows; pair with OBS on the receiver PC for online streaming
 - 🔒 **Secure** - Only works on your local network
 - ⚡ **Low Latency** - Near real-time streaming
 
@@ -186,16 +187,6 @@ A: Yes! Though fast-paced games may have slight delay.
 
 **Q: Works on Mac/Linux?**
 A: Currently Windows only. Mac/Linux support planned!
-
-## 🚀 What's Next?
-
-Exciting features coming in v2.0:
-- 📱 Mobile app for Android/iOS
-- 🌍 Internet streaming (optional)
-- 📹 Recording capability
-- 🎮 Game mode optimization
-- 👥 Multiple viewers support
-- 🔐 Password protection
 
 ---
 
