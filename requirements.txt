@@ -1,0 +1,23 @@
+# LAN Screen Streamer Dependencies
+# Python 3.8+ required
+
+# Core streaming dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Screen capture
+dxcam>=0.0.5
+mss>=9.0.0
+
+# Audio streaming
+sounddevice>=0.4.6
+PyAudio>=0.2.11
+
+# Network utilities
+netifaces>=0.11.0
+
+# Optional performance improvements
+# Uncomment if you want better performance
+# numba>=0.57.0
+# scipy>=1.10.0
